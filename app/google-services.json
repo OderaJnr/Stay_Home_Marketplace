@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "73156195375",
+    "firebase_url": "https://stay-home-marketplace.firebaseio.com",
+    "project_id": "stay-home-marketplace",
+    "storage_bucket": "stay-home-marketplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73156195375:android:344eadc87f20f876f1c2da",
+        "android_client_info": {
+          "package_name": "com.example.stayhomemarketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73156195375-brj4odh1v80b8g6l6ou6rjm059gfg7li.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stayhomemarketplace",
+            "certificate_hash": "f08f300c844f92c274e8d9626c4c18673beb352b"
+          }
+        },
+        {
+          "client_id": "73156195375-k7n0h1valfjjp711jt9ral3qmm0kn4e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHlvIpDxJEPs008sSv0iO3H6Swp17RXMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73156195375-k7n0h1valfjjp711jt9ral3qmm0kn4e4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fcfcfc"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159"
+        tools:context="com.example.coronaapp.HomeActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bankcardId"
+                android:layout_width="190dp"
+                android:layout_height="220dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:id="@+id/grocerieslayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="84dp"
+                        android:layout_height="84dp"
+                        android:padding="20dp"
+
+                        android:background="@drawable/cerclebackgroundgreen"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/supermarket"
+                            android:backgroundTint="@color/whiteCardColor"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Fresh Groceries"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#2E2E2E" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Order fresh Groceries and get them delivered to you"
+                        android:padding="5dp"
+                        android:textColor="#2E2E2E" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="190dp"
+                android:layout_height="220dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:id="@+id/areareported"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="84dp"
+                        android:layout_height="84dp"
+                        android:padding="20dp"
+
+                        android:background="@drawable/cerclebackgroundgreen"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/wheat"
+                            android:backgroundTint="@color/whiteCardColor"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Grains and Cereals"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#2E2E2E" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Find grains and cereal sellers around you,make an order and they will be delivered to your doorstep"
+                        android:textColor="#2E2E2E" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="190dp"
+                android:layout_height="220dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:id="@+id/trackme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="84dp"
+                        android:layout_height="84dp"
+                        android:padding="20dp"
+
+                        android:background="@drawable/cerclebackgroundgreen"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/shop"
+                            android:backgroundTint="@color/whiteCardColor"/>
+
+                    </LinearLayout>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Shops/Supermarkets"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#2E2E2E" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Locate all shops/supermarkets,pick items and get them delivered"
+                        android:textColor="#2E2E2E" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="190dp"
+                android:layout_height="220dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="84dp"
+                        android:layout_height="84dp"
+                        android:padding="20dp"
+
+                        android:background="@drawable/cerclebackgroundgreen"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/drug"
+                            android:backgroundTint="@color/whiteCardColor"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Local Pharmacy"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#2E2E2E" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Locate Pharmacies around you,and get your medical supplies delivered to you"
+                        android:textColor="#2E2E2E" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Donate"
+                        android:gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:textSize="25sp"
+                        android:textColor="@color/whiteCardColor"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="#2E2E2E" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Through this feature you can donate  foodstuff,Drugs,Clothing  and  Protective gear.you can either buy directly from the app or drop a pin to your location and we will pick the donations"
+                        android:textColor="#2E2E2E" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

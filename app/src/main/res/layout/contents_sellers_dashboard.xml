@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Blessed Grocery Store "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0707379348"
+                android:textColor="#000"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nairobi,KEnya"
+                android:textColor="#000"
+                android:textSize="16sp"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Addproduct"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add Product"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/add"
+                        android:backgroundTint="@color/primaryTextColor"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Manage Products"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/order"
+                        android:backgroundTint="@color/colorPrimaryDark" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/maplocation"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Map Location"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="62dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="7dp"
+                        android:background="@drawable/pin"
+                        android:backgroundTint="@color/colorPrimaryDark" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/vieworders"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Orders"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@drawable/orders"
+                        android:backgroundTint="@color/colorPrimaryDark" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sales History"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/moneym"
+                        android:backgroundTint="@color/colorPrimaryDark"                        />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Delivery Guys"
+                        android:textColor="#5E5E5E"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_width="88dp"
+                        android:layout_height="71dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/track"
+                        android:backgroundTint="@color/colorPrimaryDark" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

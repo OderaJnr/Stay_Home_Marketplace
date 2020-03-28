@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyersViewItemsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/restaurantsmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/confirmordere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_background"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Confirm Order"
+        android:textColor="@color/whiteCardColor"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/restaurantsmenu"
+        tools:layout_editor_absoluteX="-16dp"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

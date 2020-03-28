@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="1dp"
+    app:cardElevation="15dp"
+    android:id="@+id/cardView"
+    tools:ignore="RtlCompat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/menu_background"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/Sproduct_image"
+                android:layout_width="171dp"
+                android:layout_height="146dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/nicefood" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:paddingRight="10dp">
+
+
+            <TextView
+                android:id="@+id/Sproduct_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:hint="Product Name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/Sproduct_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:hint="product Price"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Sproduct_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:hint="product Description"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/numberbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+
+                ></com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+
+            <Button
+                android:id="@+id/addtocart"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/menu_background"
+                android:backgroundTint="#fff"
+                android:text="Add to cart"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:typeface="serif" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

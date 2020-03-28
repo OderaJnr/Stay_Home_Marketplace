@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/thin_black_outline">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/order_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sylvester Odera"
+                android:paddingLeft="10sp"
+                android:textColor="@color/common_google_signin_btn_text_light_default"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/buyer_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nairobi West"
+                android:paddingLeft="10sp"
+                android:textColor="@color/common_google_signin_btn_text_light_default"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/order_total_price"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Date:  "
+                        android:textColor="@color/common_google_signin_btn_text_light_pressed"></TextView>
+
+
+                    <TextView
+                        android:id="@+id/order_datetime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/order_total_price"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="28/3/2020"></TextView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/order_total_price"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Time:  "
+                        android:textColor="@color/common_google_signin_btn_text_light_pressed"></TextView>
+
+
+                    <TextView
+                        android:id="@+id/order_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/order_total_price"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="17:36hrs"></TextView>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/order_number"
+                        android:layout_margin="5dp"
+                        android:text="Status: "
+                        android:textColor="@color/common_google_signin_btn_text_light_pressed" />
+
+
+                    <TextView
+                        android:id="@+id/payment_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/order_number"
+                        android:layout_margin="5dp"
+                        android:text="Pending. "
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/order_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/order_datetime"
+                    android:layout_margin="5dp"
+                    android:text="Order Number"></TextView>
+
+
+                <TextView
+                    android:id="@+id/check_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/order_number"
+                    android:layout_margin="5dp"
+                    android:text="From: Sylvester Odera"
+                    android:textColor="@color/common_google_signin_btn_text_light_pressed" />
+
+
+                <TextView
+                    android:id="@+id/check_out"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/order_number"
+                    android:layout_margin="5dp"
+                    android:text="254707379596"
+                    android:textColor="@color/common_google_signin_btn_text_light_pressed" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/order_total_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cart_product_quantity"
+                android:layout_marginTop="26dp"
+                android:text="View Order Contents"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/thin_black_outline"
+                android:textColor="#000"
+                android:textSize="20sp"
+                tools:ignore="UnknownId" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/dispatch"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/order_number"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_drawable"
+                    android:backgroundTint="@color/colorAccent"
+                    android:text="Dispatch This ORder "
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+
+                    android:textColor="@color/whiteCardColor"
+                    android:textSize="17sp" />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
